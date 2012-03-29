@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual C++ Express 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RandomRestfulServices", "RandomRestfulServices\RandomRestfulServices.vcproj", "{6653F3D8-696D-4E9E-B744-EB65E8F3CABD}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TestRestServices", "TestRestServices\TestRestServices.vcproj", "{62DEA28E-3350-40E5-AE8C-0B5C95F786CD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6653F3D8-696D-4E9E-B744-EB65E8F3CABD}.Debug|Win32.ActiveCfg = Debug|Win32
+		{6653F3D8-696D-4E9E-B744-EB65E8F3CABD}.Debug|Win32.Build.0 = Debug|Win32
+		{6653F3D8-696D-4E9E-B744-EB65E8F3CABD}.Release|Win32.ActiveCfg = Release|Win32
+		{6653F3D8-696D-4E9E-B744-EB65E8F3CABD}.Release|Win32.Build.0 = Release|Win32
+		{62DEA28E-3350-40E5-AE8C-0B5C95F786CD}.Debug|Win32.ActiveCfg = Debug|Win32
+		{62DEA28E-3350-40E5-AE8C-0B5C95F786CD}.Debug|Win32.Build.0 = Debug|Win32
+		{62DEA28E-3350-40E5-AE8C-0B5C95F786CD}.Release|Win32.ActiveCfg = Release|Win32
+		{62DEA28E-3350-40E5-AE8C-0B5C95F786CD}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
