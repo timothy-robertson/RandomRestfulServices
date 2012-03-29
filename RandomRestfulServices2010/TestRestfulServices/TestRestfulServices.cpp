@@ -2,14 +2,20 @@
 
 #include "stdafx.h"
 #include "BaconIpsumMethods.h"
+#include "EarthquakePredictionMethods.h"
 
 using namespace System;
 
 int main(array<System::String ^> ^args)
 {
 	//Let the user know what we are doing
-    Console::WriteLine("Generating Bacon Ipsum...");
+    Console::Write("Getting Earthquake Probability...");
 
+	float answer = Services::EarthquakePredictionMethods::GetEarthquakeProbability("Burlington, VT", 3650);
+	
+	Console::WriteLine("" + answer + "%");
+	
+    Console::WriteLine("Generating Bacon Ipsum...");
 	//Generate the bacon ipsum
 	//Note: This method will wait until it recieves a response from the server.
 	//		It may take a while.
