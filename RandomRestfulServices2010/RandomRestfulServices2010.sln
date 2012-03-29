@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RandomRestfulServices2010", "RandomRestfulServices2010\RandomRestfulServices2010.vcxproj", "{1311E39F-77CD-4B2C-9D43-6FDE005DF7E9}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TestRestfulServices", "TestRestfulServices\TestRestfulServices.vcxproj", "{A3CE4570-A1D4-4A21-ADC6-2DF774942976}"
+	ProjectSection(ProjectDependencies) = postProject
+		{1311E39F-77CD-4B2C-9D43-6FDE005DF7E9} = {1311E39F-77CD-4B2C-9D43-6FDE005DF7E9}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1311E39F-77CD-4B2C-9D43-6FDE005DF7E9}.Debug|Win32.ActiveCfg = Debug|Win32
+		{1311E39F-77CD-4B2C-9D43-6FDE005DF7E9}.Debug|Win32.Build.0 = Debug|Win32
+		{1311E39F-77CD-4B2C-9D43-6FDE005DF7E9}.Release|Win32.ActiveCfg = Release|Win32
+		{1311E39F-77CD-4B2C-9D43-6FDE005DF7E9}.Release|Win32.Build.0 = Release|Win32
+		{A3CE4570-A1D4-4A21-ADC6-2DF774942976}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A3CE4570-A1D4-4A21-ADC6-2DF774942976}.Debug|Win32.Build.0 = Debug|Win32
+		{A3CE4570-A1D4-4A21-ADC6-2DF774942976}.Release|Win32.ActiveCfg = Release|Win32
+		{A3CE4570-A1D4-4A21-ADC6-2DF774942976}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

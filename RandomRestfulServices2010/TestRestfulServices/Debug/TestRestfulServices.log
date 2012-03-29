@@ -1,0 +1,30 @@
+﻿Build started 3/29/2012 2:07:20 PM.
+     1>Project "c:\Users\Tim\documents\visual studio 2010\Projects\RandomRestfulServices2010\TestRestfulServices\TestRestfulServices.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\TestRestfulServices.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       GenerateTargetFrameworkMonikerAttribute:
+       Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
+       ClCompile:
+         All outputs are up-to-date.
+         All outputs are up-to-date.
+         All outputs are up-to-date.
+       ResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         All outputs are up-to-date.
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"c:\users\tim\documents\visual studio 2010\Projects\RandomRestfulServices2010\Debug\TestRestfulServices.exe" /INCREMENTAL /NOLOGO /LIBPATH:../RandomRestfulServices2010 /LIBPATH:../Debug RandomRestfulServices2010.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\TestRestfulServices.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"c:\users\tim\documents\visual studio 2010\Projects\RandomRestfulServices2010\Debug\TestRestfulServices.pdb" /ASSEMBLYDEBUG /TLBID:1 /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 Debug\app.res
+         Debug\AssemblyInfo.obj
+         Debug\stdafx.obj
+         Debug\TestRestfulServices.obj
+         "Debug\.NETFramework,Version=v4.0.AssemblyAttributes.obj"
+         TestRestfulServices.vcxproj -> c:\users\tim\documents\visual studio 2010\Projects\RandomRestfulServices2010\Debug\TestRestfulServices.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"c:\users\tim\documents\visual studio 2010\Projects\RandomRestfulServices2010\Debug\TestRestfulServices.exe;#1" /manifest Debug\TestRestfulServices.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\TestRestfulServices.unsuccessfulbuild".
+         Touching "Debug\TestRestfulServices.lastbuildstate".
+     1>Done Building Project "c:\Users\Tim\documents\visual studio 2010\Projects\RandomRestfulServices2010\TestRestfulServices\TestRestfulServices.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.79
