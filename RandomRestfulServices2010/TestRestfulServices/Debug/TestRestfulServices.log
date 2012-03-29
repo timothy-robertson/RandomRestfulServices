@@ -1,13 +1,16 @@
-﻿Build started 3/29/2012 5:18:10 PM.
-     1>Project "C:\Users\Tim\Documents\Github\RandomResfulServices\RandomRestfulServices2010\TestRestfulServices\TestRestfulServices.vcxproj" on node 2 (build target(s)).
+﻿Build started 3/29/2012 6:14:14 PM.
+     1>Project "C:\Users\Tim\Documents\Github\RandomResfulServices\RandomRestfulServices2010\TestRestfulServices\TestRestfulServices.vcxproj" on node 3 (build target(s)).
      1>InitializeBuildStatus:
-         Creating "Debug\TestRestfulServices.unsuccessfulbuild" because "AlwaysCreate" was specified.
+         Touching "Debug\TestRestfulServices.unsuccessfulbuild".
        GenerateTargetFrameworkMonikerAttribute:
        Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
        ClCompile:
-         All outputs are up-to-date.
-         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I../RandomRestfulServices2010 /I../Debug /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /TP /FUC:\Users\Tim\Documents\Github\RandomResfulServices\RandomRestfulServices2010\Debug\RandomRestfulServices2010.dll /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /analyze- /errorReport:prompt TestRestfulServices.cpp /clr:nostdlib 
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I../RandomRestfulServices2010 /I../Debug /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Debug\TestRestfulServices.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /TP /FUC:\Users\Tim\Documents\Github\RandomResfulServices\RandomRestfulServices2010\Debug\RandomRestfulServices2010.dll /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /analyze- /errorReport:prompt stdafx.cpp /clr:nostdlib 
+         stdafx.cpp
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I../RandomRestfulServices2010 /I../Debug /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /TP /FUC:\Users\Tim\Documents\Github\RandomResfulServices\RandomRestfulServices2010\Debug\RandomRestfulServices2010.dll /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /analyze- /errorReport:prompt AssemblyInfo.cpp TestRestfulServices.cpp /clr:nostdlib 
+         AssemblyInfo.cpp
          TestRestfulServices.cpp
+         Generating Code...
          All outputs are up-to-date.
        ResourceCompile:
          All outputs are up-to-date.
@@ -27,4 +30,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:01.39
+Time Elapsed 00:00:01.83

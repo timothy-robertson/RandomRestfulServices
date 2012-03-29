@@ -30,6 +30,12 @@
     <ClInclude Include="EarthquakePredictionMethods.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="GeolocationMethods.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LocationInformation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="RandomRestfulServices2010.cpp">
@@ -45,6 +51,9 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="EarthquakePredictionMethods.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeolocationMethods.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

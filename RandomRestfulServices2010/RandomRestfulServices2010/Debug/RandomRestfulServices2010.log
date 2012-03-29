@@ -1,13 +1,13 @@
-﻿Build started 3/29/2012 3:03:26 PM.
+﻿Build started 3/29/2012 6:14:13 PM.
      1>Project "C:\Users\Tim\Documents\Github\RandomResfulServices\RandomRestfulServices2010\RandomRestfulServices2010\RandomRestfulServices2010.vcxproj" on node 2 (build target(s)).
      1>InitializeBuildStatus:
-         Creating "Debug\RandomRestfulServices2010.unsuccessfulbuild" because "AlwaysCreate" was specified.
+         Touching "Debug\RandomRestfulServices2010.unsuccessfulbuild".
        GenerateTargetFrameworkMonikerAttribute:
        Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
        ClCompile:
          All outputs are up-to-date.
-         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDLL /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\RandomRestfulServices2010.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /analyze- /errorReport:prompt EarthquakePredictionMethods.cpp /clr:nostdlib 
-         EarthquakePredictionMethods.cpp
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDLL /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\RandomRestfulServices2010.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /analyze- /errorReport:prompt GeolocationMethods.cpp /clr:nostdlib 
+         GeolocationMethods.cpp
          All outputs are up-to-date.
        ResourceCompile:
          All outputs are up-to-date.
@@ -16,6 +16,7 @@
          Debug\AssemblyInfo.obj
          Debug\BaconIpsumMethods.obj
          Debug\EarthquakePredictionMethods.obj
+         Debug\GeolocationMethods.obj
          Debug\RandomRestfulServices2010.obj
          Debug\Stdafx.obj
          "Debug\.NETFramework,Version=v4.0.AssemblyAttributes.obj"
@@ -30,4 +31,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:00.87
+Time Elapsed 00:00:01.11
