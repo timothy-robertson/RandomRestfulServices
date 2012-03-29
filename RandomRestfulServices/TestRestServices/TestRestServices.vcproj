@@ -42,7 +42,7 @@
 			<Tool
 				Name="VCCLCompilerTool"
 				Optimization="0"
-				AdditionalIncludeDirectories="&quot;C:\Users\Tim\Documents\Visual Studio 2008\Projects\RandomRestfulServices\RandomRestfulServices&quot;"
+				AdditionalIncludeDirectories="&quot;..\RandomRestfulServices&quot;"
 				PreprocessorDefinitions="WIN32;_DEBUG"
 				RuntimeLibrary="3"
 				UsePrecompiledHeader="2"

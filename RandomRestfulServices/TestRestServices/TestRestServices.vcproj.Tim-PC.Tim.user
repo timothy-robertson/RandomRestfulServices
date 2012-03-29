@@ -20,7 +20,7 @@
 				HttpUrl=""
 				PDBPath=""
 				SQLDebugging=""
-				Environment="PATH=C:\Users\Tim\Documents\Visual Studio 2008\Projects\RandomRestfulServices\Debug"
+				Environment="PATH=..\Debug"
 				EnvironmentMerge="true"
 				DebuggerFlavor="0"
 				MPIRunCommand=""
