@@ -1,4 +1,4 @@
-﻿Build started 3/29/2012 9:56:47 PM.
+﻿Build started 3/30/2012 8:51:42 AM.
      1>Project "C:\Users\Tim\Documents\Github\RandomResfulServices\RandomRestfulServices2010\TestRestfulServices\TestRestfulServices.vcxproj" on node 3 (rebuild target(s)).
      1>_PrepareForClean:
          Deleting file "Debug\TestRestfulServices.lastbuildstate".
@@ -12,9 +12,9 @@
          c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I../RandomRestfulServices2010 /I../Debug /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /TP /FUC:\Users\Tim\Documents\Github\RandomResfulServices\RandomRestfulServices2010\Debug\RandomRestfulServices2010.dll /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /analyze- /errorReport:prompt AssemblyInfo.cpp TestRestfulServices.cpp /clr:nostdlib 
          AssemblyInfo.cpp
          TestRestfulServices.cpp
-     1>TestRestfulServices.cpp(63): warning C4101: 'fnf' : unreferenced local variable
-     1>TestRestfulServices.cpp(68): warning C4101: 'bi' : unreferenced local variable
-     1>TestRestfulServices.cpp(73): warning C4101: 'fl' : unreferenced local variable
+     1>TestRestfulServices.cpp(65): warning C4101: 'fnf' : unreferenced local variable
+     1>TestRestfulServices.cpp(70): warning C4101: 'bi' : unreferenced local variable
+     1>TestRestfulServices.cpp(75): warning C4101: 'fl' : unreferenced local variable
          Generating Code...
          c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I../RandomRestfulServices2010 /I../Debug /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /TP /analyze- /errorReport:prompt "C:\Users\Tim\AppData\Local\Temp\.NETFramework,Version=v4.0.AssemblyAttributes.cpp"
          .NETFramework,Version=v4.0.AssemblyAttributes.cpp
@@ -36,4 +36,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:02.71
+Time Elapsed 00:00:03.25

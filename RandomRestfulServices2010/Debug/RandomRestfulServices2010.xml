@@ -1,0 +1,160 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        "RandomRestfulServices2010"
+    </assembly>
+    <members>
+        <member name="M:RandomRestfulServices2010.BaconIpsum.InitializeComponent">
+            <summary>
+Required method for Designer support - do not modify
+the contents of this method with the code editor.
+</summary>
+        </member>
+        <member name="F:RandomRestfulServices2010.BaconIpsum.components">
+            <summary>
+Required designer variable.
+</summary>
+        </member>
+        <member name="M:RandomRestfulServices2010.BaconIpsum.Dispose">
+            <summary>
+Clean up any resources being used.
+</summary>
+        </member>
+        <member name="M:RandomRestfulServices2010.BaconIpsum.GetBaconIpsum(System.Boolean,System.Int32)">
+            <summary>
+GetBaconIpsum takes in the parameters for generating the BaconIpsum, and makes a 
+HTTPWebrequest in order to get back generated BaconIpsum
+</summary>
+            <param name="justMeat">If true, only returns meat, rather than meat and lorum ipsum</param>
+            <param name="paragraphs">The number of paragraphs that are being requested</param>
+        </member>
+        <member name="T:RandomRestfulServices2010.BaconIpsum">
+            <summary>
+Wrapper C# Class for BaconIpsumMethods.h, which will generate A HttpWebRequest to the 
+BaconIpsum Service at http://baconipsum.com/.
+No API Key is required
+</summary>
+        </member>
+        <member name="M:Services.BaconIpsumMethods.GenerateBaconIpsum(System.Boolean,System.Int32)">
+            <summary>
+GetBaconIpsum takes in the parameters for generating the BaconIpsum, and makes a 
+HTTPWebrequest in order to get back generated BaconIpsum
+</summary>
+            <param name="justMeat">If true, only returns meat, rather than meat and lorum ipsum</param>
+            <param name="paragraphs">The number of paragraphs that are being requested</param>
+        </member>
+        <member name="M:RandomRestfulServices2010.EarthquakePrediction.InitializeComponent">
+            <summary>
+Required method for Designer support - do not modify
+the contents of this method with the code editor.
+</summary>
+        </member>
+        <member name="F:RandomRestfulServices2010.EarthquakePrediction.components">
+            <summary>
+Required designer variable.
+</summary>
+        </member>
+        <member name="M:RandomRestfulServices2010.EarthquakePrediction.Dispose">
+            <summary>
+Clean up any resources being used.
+</summary>
+        </member>
+        <member name="M:RandomRestfulServices2010.EarthquakePrediction.GetChanceOfEarthquake(System.String,System.Int32)">
+            <summary>
+GetChanceOfEarthquake takes in the parameters for generating a probability of an earthquake
+and returns back a float with precision to the hundreths place representing a precent chance
+</summary>
+            <param name="location">A String which can identify a location, "City, State", "Zipcode", "Address", etc.</param>
+            <param name="days">The number of days from the current day to predict. Entering 7 will generate odds for the next week for example</param>
+        </member>
+        <member name="T:RandomRestfulServices2010.EarthquakePrediction">
+            <summary>
+Wrapper C# Class for EarthquakePredictionMethods.h, which will generate A HttpWebRequest to the 
+open hazards Service at http://www.openhazards.com/data.
+No API Key is required
+</summary>
+        </member>
+        <member name="M:RandomRestfulServices2010.Geolocation.InitializeComponent">
+            <summary>
+Required method for Designer support - do not modify
+the contents of this method with the code editor.
+</summary>
+        </member>
+        <member name="F:RandomRestfulServices2010.Geolocation.components">
+            <summary>
+Required designer variable.
+</summary>
+        </member>
+        <member name="M:RandomRestfulServices2010.Geolocation.Dispose">
+            <summary>
+Clean up any resources being used.
+</summary>
+        </member>
+        <member name="M:RandomRestfulServices2010.Geolocation.GetLocation(System.String)">
+            <summary>
+GetLocation will return a GeolocationInformation Object, which stores zipcode, city, state, and country of 
+The current IP address of the computer that is running this program. It also has a status, which you
+should check if it equals "OK" otherwise the data may not be gathered.
+</summary>
+            <param name="apikey">This is they key that you obtain by registering at http://ipinfodb.com/register.php. </param>
+        </member>
+        <member name="T:RandomRestfulServices2010.Geolocation">
+            <summary>
+Wrapper C# Class for GeolocationMethods.h, which will generate A HttpWebRequest to the 
+geolocation service at http://ipinfodb.com/
+This requires an API key that you can obtain be registering here: http://ipinfodb.com/register.php
+</summary>
+        </member>
+        <member name="M:RandomRestfulServices2010.GeolocationInformation.InitializeComponent">
+            <summary>
+Required method for Designer support - do not modify
+the contents of this method with the code editor.
+</summary>
+        </member>
+        <member name="F:RandomRestfulServices2010.GeolocationInformation.components">
+            <summary>
+Required designer variable.
+</summary>
+        </member>
+        <member name="M:RandomRestfulServices2010.GeolocationInformation.Dispose">
+            <summary>
+Clean up any resources being used.
+</summary>
+        </member>
+        <member name="M:RandomRestfulServices2010.GeolocationInformation.GetZipcode">
+            <summary>
+GetZipcode returns the sipcode the user is in, in all caps
+</summary>
+        </member>
+        <member name="M:RandomRestfulServices2010.GeolocationInformation.GetIP">
+            <summary>
+GetIP returns the ip address the user has, in all caps
+</summary>
+        </member>
+        <member name="M:RandomRestfulServices2010.GeolocationInformation.GetCountry">
+            <summary>
+GetCountry returns the country the user is in, in all caps
+</summary>
+        </member>
+        <member name="M:RandomRestfulServices2010.GeolocationInformation.GetState">
+            <summary>
+GetState returns the state the user is in, in all caps
+</summary>
+        </member>
+        <member name="M:RandomRestfulServices2010.GeolocationInformation.GetCity">
+            <summary>
+GetCity returns the city the user is in, in all caps
+</summary>
+        </member>
+        <member name="M:RandomRestfulServices2010.GeolocationInformation.GetStatus">
+            <summary>
+GetStatus returns a string. If the string == "OK", then the rest of the data is valid
+</summary>
+        </member>
+        <member name="T:RandomRestfulServices2010.GeolocationInformation">
+            <summary>
+GeolocationInformation stores location information
+</summary>
+        </member>
+    </members>
+</doc>

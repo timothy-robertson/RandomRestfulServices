@@ -10,7 +10,7 @@ using namespace System::Diagnostics;
 namespace RandomRestfulServices2010 {
 
 	/// <summary>
-	/// Summary for GeolocationInformation
+	/// GeolocationInformation stores location information
 	/// </summary>
 	public ref class GeolocationInformation :  public System::ComponentModel::Component
 	{
@@ -42,27 +42,50 @@ namespace RandomRestfulServices2010 {
 			container->Add(this);
 			InitializeComponent();
 		}
-
+		
+		/// <summary>
+		/// GetStatus returns a string. If the string == "OK", then the rest of the data is valid
+		/// </summary>
 		System::String^ GetStatus()
 		{
 			return status;
 		}
+		
+		/// <summary>
+		/// GetCity returns the city the user is in, in all caps
+		/// </summary>
 		System::String^ GetCity()
 		{
 			return city;
 		}
+		
+		/// <summary>
+		/// GetState returns the state the user is in, in all caps
+		/// </summary>
 		System::String^ GetState()
 		{
 			return state;
 		}
+		
+		/// <summary>
+		/// GetCountry returns the country the user is in, in all caps
+		/// </summary>
 		System::String^ GetCountry()
 		{
 			return country;
 		}
+		
+		/// <summary>
+		/// GetIP returns the ip address the user has, in all caps
+		/// </summary>
 		System::String^ GetIP()
 		{
 			return ip;
 		}
+		
+		/// <summary>
+		/// GetZipcode returns the sipcode the user is in, in all caps
+		/// </summary>
 		System::String^ GetZipcode()
 		{
 			return zip;

@@ -9,7 +9,9 @@ using namespace System::Diagnostics;
 namespace RandomRestfulServices2010 {
 
 	/// <summary>
-	/// Summary for BaconIpsum
+	/// Wrapper C# Class for BaconIpsumMethods.h, which will generate A HttpWebRequest to the 
+	/// BaconIpsum Service at http://baconipsum.com/.
+	/// No API Key is required
 	/// </summary>
 	public ref class BaconIpsum :  public System::ComponentModel::Component
 	{
@@ -30,6 +32,13 @@ namespace RandomRestfulServices2010 {
 			container->Add(this);
 			InitializeComponent();
 		}
+		
+        /// <summary>
+        ///	GetBaconIpsum takes in the parameters for generating the BaconIpsum, and makes a 
+		/// HTTPWebrequest in order to get back generated BaconIpsum
+        /// </summary>
+        /// <param name="justMeat">If true, only returns meat, rather than meat and lorum ipsum</param>
+        /// <param name="paragraphs">The number of paragraphs that are being requested</param>
 		static System::String^ GetBaconIpsum(bool justMeat, int paragraphs)
 		{
 			char* buffer = Services::BaconIpsumMethods::GenerateBaconIpsum(justMeat, paragraphs);

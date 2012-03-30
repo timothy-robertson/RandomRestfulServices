@@ -1,4 +1,4 @@
-﻿Build started 3/29/2012 9:56:44 PM.
+﻿Build started 3/30/2012 8:51:39 AM.
      1>Project "C:\Users\Tim\Documents\Github\RandomResfulServices\RandomRestfulServices2010\RandomRestfulServices2010\RandomRestfulServices2010.vcxproj" on node 2 (rebuild target(s)).
      1>_PrepareForClean:
          Deleting file "Debug\RandomRestfulServices2010.lastbuildstate".
@@ -7,9 +7,9 @@
        GenerateTargetFrameworkMonikerAttribute:
        Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
        ClCompile:
-         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDLL /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Debug\RandomRestfulServices2010.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /analyze- /errorReport:prompt Stdafx.cpp /clr:nostdlib 
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDLL /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Debug\RandomRestfulServices2010.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /doc"Debug\\" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /analyze- /errorReport:prompt Stdafx.cpp /clr:nostdlib 
          Stdafx.cpp
-         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDLL /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\RandomRestfulServices2010.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /analyze- /errorReport:prompt AssemblyInfo.cpp BaconIpsum.cpp BaconIpsumMethods.cpp EarthquakePrediction.cpp EarthquakePredictionMethods.cpp Geolocation.cpp GeolocationInformation.cpp GeolocationMethods.cpp RandomRestfulServices2010.cpp /clr:nostdlib 
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDLL /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\RandomRestfulServices2010.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /doc"Debug\\" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /analyze- /errorReport:prompt AssemblyInfo.cpp BaconIpsum.cpp BaconIpsumMethods.cpp EarthquakePrediction.cpp EarthquakePredictionMethods.cpp Geolocation.cpp GeolocationInformation.cpp GeolocationMethods.cpp RandomRestfulServices2010.cpp /clr:nostdlib 
          AssemblyInfo.cpp
          BaconIpsum.cpp
          BaconIpsumMethods.cpp
@@ -20,7 +20,7 @@
          GeolocationMethods.cpp
          RandomRestfulServices2010.cpp
          Generating Code...
-         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDLL /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /TP /analyze- /errorReport:prompt "C:\Users\Tim\AppData\Local\Temp\.NETFramework,Version=v4.0.AssemblyAttributes.cpp"
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDLL /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /doc"Debug\\" /TP /analyze- /errorReport:prompt "C:\Users\Tim\AppData\Local\Temp\.NETFramework,Version=v4.0.AssemblyAttributes.cpp"
          .NETFramework,Version=v4.0.AssemblyAttributes.cpp
        ResourceCompile:
          C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"Debug\app.res" app.rc 
@@ -41,6 +41,8 @@
          RandomRestfulServices2010.vcxproj -> C:\Users\Tim\Documents\Github\RandomResfulServices\RandomRestfulServices2010\Debug\RandomRestfulServices2010.dll
        Manifest:
          C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\Tim\Documents\Github\RandomResfulServices\RandomRestfulServices2010\Debug\RandomRestfulServices2010.dll;#2" /manifest Debug\RandomRestfulServices2010.dll.intermediate.manifest
+       XdcMake:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\xdcmake.exe /old "RandomRestfulServices2010" /nologo /Fo"C:\Users\Tim\Documents\Github\RandomResfulServices\RandomRestfulServices2010\Debug\RandomRestfulServices2010.xml" /FsDebug\AssemblyInfo.xdc /FsDebug\BaconIpsum.xdc /FsDebug\BaconIpsumMethods.xdc /FsDebug\EarthquakePrediction.xdc /FsDebug\EarthquakePredictionMethods.xdc /FsDebug\Geolocation.xdc /FsDebug\GeolocationInformation.xdc /FsDebug\GeolocationMethods.xdc /FsDebug\RandomRestfulServices2010.xdc /FsDebug\Stdafx.xdc /Fs"Debug\.NETFramework,Version=v4.0.AssemblyAttributes.xdc"
        FinalizeBuildStatus:
          Deleting file "Debug\RandomRestfulServices2010.unsuccessfulbuild".
          Touching "Debug\RandomRestfulServices2010.lastbuildstate".
@@ -48,4 +50,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:02.05
+Time Elapsed 00:00:02.87

@@ -9,9 +9,11 @@ using namespace System::Diagnostics;
 
 
 namespace RandomRestfulServices2010 {
-
+	
 	/// <summary>
-	/// Summary for Geolocation
+	/// Wrapper C# Class for GeolocationMethods.h, which will generate A HttpWebRequest to the 
+	/// geolocation service at http://ipinfodb.com/
+	/// This requires an API key that you can obtain be registering here: http://ipinfodb.com/register.php
 	/// </summary>
 	public ref class Geolocation :  public System::ComponentModel::Component
 	{
@@ -32,7 +34,14 @@ namespace RandomRestfulServices2010 {
 			container->Add(this);
 			InitializeComponent();
 		}
-		static RandomRestfulServices2010::GeolocationInformation^ GetLocation(System::String^ apikey)
+
+		/// <summary>
+		///	GetLocation will return a GeolocationInformation Object, which stores zipcode, city, state, and country of 
+		/// The current IP address of the computer that is running this program. It also has a status, which you
+		/// should check if it equals "OK" otherwise the data may not be gathered.
+        /// </summary>
+        /// <param name="apikey">This is they key that you obtain by registering at http://ipinfodb.com/register.php. </param>
+        static RandomRestfulServices2010::GeolocationInformation^ GetLocation(System::String^ apikey)
 		{
 			char* buffer = new char[apikey->Length + 1];
 			for(int i = 0; i < apikey->Length; ++i)

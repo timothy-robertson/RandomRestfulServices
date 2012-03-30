@@ -1,4 +1,4 @@
-﻿Build started 3/29/2012 9:56:47 PM.
+﻿Build started 3/30/2012 8:51:42 AM.
      1>Project "C:\Users\Tim\Documents\Github\RandomResfulServices\RandomRestfulServices2010\TestRestfulServicesWin32\TestRestfulServicesWin32.vcxproj" on node 3 (rebuild target(s)).
      1>_PrepareForClean:
          Deleting file "Debug\TestRestfulServicesWin32.lastbuildstate".
@@ -31,4 +31,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:02.43
+Time Elapsed 00:00:01.81
