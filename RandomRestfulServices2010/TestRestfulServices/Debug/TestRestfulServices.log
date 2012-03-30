@@ -1,6 +1,8 @@
-﻿Build started 3/29/2012 9:17:57 PM.
-     1>Project "C:\Users\Tim\Documents\Github\RandomResfulServices\RandomRestfulServices2010\TestRestfulServices\TestRestfulServices.vcxproj" on node 2 (build target(s)).
-     1>InitializeBuildStatus:
+﻿Build started 3/29/2012 9:56:47 PM.
+     1>Project "C:\Users\Tim\Documents\Github\RandomResfulServices\RandomRestfulServices2010\TestRestfulServices\TestRestfulServices.vcxproj" on node 3 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Debug\TestRestfulServices.lastbuildstate".
+       InitializeBuildStatus:
          Creating "Debug\TestRestfulServices.unsuccessfulbuild" because "AlwaysCreate" was specified.
        GenerateTargetFrameworkMonikerAttribute:
        Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
@@ -10,10 +12,14 @@
          c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I../RandomRestfulServices2010 /I../Debug /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /TP /FUC:\Users\Tim\Documents\Github\RandomResfulServices\RandomRestfulServices2010\Debug\RandomRestfulServices2010.dll /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /analyze- /errorReport:prompt AssemblyInfo.cpp TestRestfulServices.cpp /clr:nostdlib 
          AssemblyInfo.cpp
          TestRestfulServices.cpp
+     1>TestRestfulServices.cpp(63): warning C4101: 'fnf' : unreferenced local variable
+     1>TestRestfulServices.cpp(68): warning C4101: 'bi' : unreferenced local variable
+     1>TestRestfulServices.cpp(73): warning C4101: 'fl' : unreferenced local variable
          Generating Code...
-         All outputs are up-to-date.
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I../RandomRestfulServices2010 /I../Debug /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /TP /analyze- /errorReport:prompt "C:\Users\Tim\AppData\Local\Temp\.NETFramework,Version=v4.0.AssemblyAttributes.cpp"
+         .NETFramework,Version=v4.0.AssemblyAttributes.cpp
        ResourceCompile:
-         All outputs are up-to-date.
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"Debug\app.res" app.rc 
        Link:
          c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Tim\Documents\Github\RandomResfulServices\RandomRestfulServices2010\Debug\TestRestfulServices.exe" /INCREMENTAL /NOLOGO /LIBPATH:../RandomRestfulServices2010 /LIBPATH:../Debug RandomRestfulServices2010.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\TestRestfulServices.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Tim\Documents\Github\RandomResfulServices\RandomRestfulServices2010\Debug\TestRestfulServices.pdb" /ASSEMBLYDEBUG /TLBID:1 /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 Debug\app.res
          Debug\AssemblyInfo.obj
@@ -26,8 +32,8 @@
        FinalizeBuildStatus:
          Deleting file "Debug\TestRestfulServices.unsuccessfulbuild".
          Touching "Debug\TestRestfulServices.lastbuildstate".
-     1>Done Building Project "C:\Users\Tim\Documents\Github\RandomResfulServices\RandomRestfulServices2010\TestRestfulServices\TestRestfulServices.vcxproj" (build target(s)).
+     1>Done Building Project "C:\Users\Tim\Documents\Github\RandomResfulServices\RandomRestfulServices2010\TestRestfulServices\TestRestfulServices.vcxproj" (rebuild target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:01.29
+Time Elapsed 00:00:02.71

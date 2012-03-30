@@ -7,7 +7,7 @@
 
 using namespace System;
 
-int main(array<System::String ^> ^args)
+void MakeAPICalls()
 {
 	char* geo_api_key = "735f0930ca73e6984112daf17a77559488cd1995eaed18715fa5080ac6e1ede8";
 	
@@ -46,8 +46,36 @@ int main(array<System::String ^> ^args)
 	delete [] locationResults.country;
 	delete [] locationResults.ip;
 	delete [] locationResults.zip;
+}
 
-	//Wait until key press then exit
-	Console::Read();
+int main(array<System::String ^> ^args)
+{
+	try            
+	{   
+		//Make sure that we have an assembly
+		//Windows usually catches the assembly not being there on its own, 
+		//but it can't hurt, right?
+		System::Reflection::AssemblyName^ testAssembly =        
+			System::Reflection::AssemblyName::GetAssemblyName( "../Debug/RandomRestfulServices2010.dll" );
+		            
+		MakeAPICalls();
+		//Wait until key press then exit
+		Console::Read();
+   	}    
+	catch (System::IO::FileNotFoundException^ fnf)    
+	{    
+		Console::WriteLine("The file cannot be found.");        
+		Console::Read();        
+	}   
+	catch (BadImageFormatException^ bi)    
+	{
+    	Console::WriteLine("The file is not an assembly.");        
+		Console::Read();        
+	}    
+	catch (System::IO::FileLoadException^ fl)    
+	{    
+		System::Console::WriteLine("The assembly has already been loaded.");        
+		System::Console::Read();        
+	}
     return 0;
 }

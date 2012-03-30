@@ -10,6 +10,10 @@
 
 int _tmain(int argc, _TCHAR* argv[])
 {
+
+	//We should do error checking on the dll. 
+	//We really should.
+
 	printf("Win32 Test Project\n\n");
 
 	//The API key needed for the geolocation
