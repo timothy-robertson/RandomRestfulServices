@@ -1,4 +1,4 @@
-﻿Build started 3/29/2012 9:17:23 PM.
+﻿Build started 3/29/2012 9:29:21 PM.
      1>Project "C:\Users\Tim\Documents\Github\RandomResfulServices\RandomRestfulServices2010\RandomRestfulServices2010\RandomRestfulServices2010.vcxproj" on node 2 (build target(s)).
      1>InitializeBuildStatus:
          Creating "Debug\RandomRestfulServices2010.unsuccessfulbuild" because "AlwaysCreate" was specified.
@@ -35,4 +35,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:00.68
+Time Elapsed 00:00:00.62

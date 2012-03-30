@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RestAPICalls.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\RandomRestfulServices2010\RandomRestfulServices2010.vcxproj">
