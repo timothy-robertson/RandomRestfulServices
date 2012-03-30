@@ -76,8 +76,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="BaconIpsum.h">
+      <FileType>CppClass</FileType>
+    </ClInclude>
     <ClInclude Include="BaconIpsumMethods.h" />
+    <ClInclude Include="EarthquakePrediction.h">
+      <FileType>CppClass</FileType>
+    </ClInclude>
     <ClInclude Include="EarthquakePredictionMethods.h" />
+    <ClInclude Include="Geolocation.h">
+      <FileType>CppClass</FileType>
+    </ClInclude>
+    <ClInclude Include="GeolocationInformation.h">
+      <FileType>CppClass</FileType>
+    </ClInclude>
     <ClInclude Include="GeolocationMethods.h" />
     <ClInclude Include="LocationInformation.h" />
     <ClInclude Include="RandomRestfulServices2010.h" />
@@ -86,8 +98,12 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="AssemblyInfo.cpp" />
+    <ClCompile Include="BaconIpsum.cpp" />
     <ClCompile Include="BaconIpsumMethods.cpp" />
+    <ClCompile Include="EarthquakePrediction.cpp" />
     <ClCompile Include="EarthquakePredictionMethods.cpp" />
+    <ClCompile Include="Geolocation.cpp" />
+    <ClCompile Include="GeolocationInformation.cpp" />
     <ClCompile Include="GeolocationMethods.cpp" />
     <ClCompile Include="RandomRestfulServices2010.cpp" />
     <ClCompile Include="Stdafx.cpp">

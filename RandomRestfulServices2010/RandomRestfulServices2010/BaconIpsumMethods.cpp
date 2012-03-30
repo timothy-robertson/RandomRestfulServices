@@ -44,7 +44,7 @@ namespace Services
 				}
 				else
 				{
-					returnString[tempIndex] = read[tempIndex - index];
+					returnString[tempIndex] = (char)read[tempIndex - index];
 				}
 		   }
 		   index += count;

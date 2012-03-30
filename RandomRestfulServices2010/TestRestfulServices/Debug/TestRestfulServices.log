@@ -1,7 +1,7 @@
-﻿Build started 3/29/2012 6:14:14 PM.
-     1>Project "C:\Users\Tim\Documents\Github\RandomResfulServices\RandomRestfulServices2010\TestRestfulServices\TestRestfulServices.vcxproj" on node 3 (build target(s)).
+﻿Build started 3/29/2012 9:17:57 PM.
+     1>Project "C:\Users\Tim\Documents\Github\RandomResfulServices\RandomRestfulServices2010\TestRestfulServices\TestRestfulServices.vcxproj" on node 2 (build target(s)).
      1>InitializeBuildStatus:
-         Touching "Debug\TestRestfulServices.unsuccessfulbuild".
+         Creating "Debug\TestRestfulServices.unsuccessfulbuild" because "AlwaysCreate" was specified.
        GenerateTargetFrameworkMonikerAttribute:
        Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
        ClCompile:
@@ -30,4 +30,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:01.83
+Time Elapsed 00:00:01.29

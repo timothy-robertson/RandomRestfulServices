@@ -1,0 +1,7 @@
+C:\Users\Tim\Documents\Github\RandomResfulServices\RandomRestfulServices2010\TestRestfulServicesSharp\bin\Debug\TestRestfulServicesSharp.exe
+C:\Users\Tim\Documents\Github\RandomResfulServices\RandomRestfulServices2010\TestRestfulServicesSharp\bin\Debug\TestRestfulServicesSharp.pdb
+C:\Users\Tim\Documents\Github\RandomResfulServices\RandomRestfulServices2010\TestRestfulServicesSharp\bin\Debug\RandomRestfulServices2010.dll
+C:\Users\Tim\Documents\Github\RandomResfulServices\RandomRestfulServices2010\TestRestfulServicesSharp\bin\Debug\RandomRestfulServices2010.pdb
+C:\Users\Tim\Documents\Github\RandomResfulServices\RandomRestfulServices2010\TestRestfulServicesSharp\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Tim\Documents\Github\RandomResfulServices\RandomRestfulServices2010\TestRestfulServicesSharp\obj\x86\Debug\TestRestfulServicesSharp.exe
+C:\Users\Tim\Documents\Github\RandomResfulServices\RandomRestfulServices2010\TestRestfulServicesSharp\obj\x86\Debug\TestRestfulServicesSharp.pdb
